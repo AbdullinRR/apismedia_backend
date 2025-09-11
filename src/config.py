@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     DB_USER: str
     DB_PASS: str
 
+    EASYCLINIC_BASE_URL: str
+    EASYCLINIC_TOKEN: str
+
 
     @property
     def database_url_asyncpg(self) -> str:
