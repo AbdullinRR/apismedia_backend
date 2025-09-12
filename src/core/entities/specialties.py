@@ -10,4 +10,4 @@ class Speciality(BaseModel):
     id: int | None = None
     name: str
     # "красивое" поле для показа на сайте
-    correct_name: str
+    correct_name: str = None
